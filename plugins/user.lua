@@ -8,5 +8,20 @@ return {
   --   config = function()
   --     require("lsp_signature").setup()
   --   end,
-  -- },
+  --   },
+  {
+    "szw/vim-maximizer",
+    event = "VeryLazy",
+    lazy = true,
+  },
+  {
+    "github/copilot.vim",
+    event = "VeryLazy",
+    lazy = true,
+  },
+  {
+    "lervag/vimtex",
+    event = "VeryLazy",
+  },
+  "catppuccin/nvim",
 }
